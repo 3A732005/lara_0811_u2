@@ -122,6 +122,10 @@
                         </div>
                     </div>
 
+                    <a href="{{route('hello.index')}}">Hello</a>
+                    <a href="/hello/Tom">Hello2</a>
+                    <a href="{{route('hello.index',['name'=>'Tom'])}}">Hello3</a>
+
                     <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
                         Build v{{ Illuminate\Foundation\Application::VERSION }}
                     </div>
