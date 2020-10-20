@@ -225,6 +225,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -243,6 +244,7 @@
       <workItem from="1602643205136" duration="871000" />
       <workItem from="1602645055510" duration="605000" />
       <workItem from="1602647289121" duration="1262000" />
+      <workItem from="1603198127976" duration="402000" />
     </task>
     <servers />
   </component>
