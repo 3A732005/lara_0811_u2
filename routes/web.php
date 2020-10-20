@@ -13,13 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return 'welcome';
-});
+});*/
+
+Route::get('/',['as'=>'home.index','user'=>'HomeController@index']);
 
 Route::get('r1', function () {
     return redirect('r2');
