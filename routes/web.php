@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,7 +22,9 @@ use Illuminate\Support\Facades\Route;
     return 'welcome';
 });*/
 
-Route::get('/',['as'=>'home.index','user'=>'HomeController@index']);
+//舊版
+/*Route::get('/',['as'=>'home.index','user'=>'HomeController@index']);*/
+Route::get('/', [HomeController::class, 'index'])->name('home.index');
 
 Route::get('r1', function () {
     return redirect('r2');
